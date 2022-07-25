@@ -1,2 +1,2 @@
 # nodejs-auth
-NodeJS auth example project for bognov.tech
+Read the tutorial on my blog: [bognov.tech](https://bognov.tech/nodejs-auth-jwt-cookies-express-mongoose-and-more)

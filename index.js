@@ -33,7 +33,7 @@ app.get("/", (req, res) => res.send("Hello World!"));
 app.use('/test', (req, res) => res.send("from test!"));
 
 //router test to make sure you know how to use middleware and imports/exports
-//call example: http://localhost:5000/api/cookie
+//call example: http://localhost:5000/api/test
 app.use('/api', routerTest);
 
 //session explorer endpoints to understand cookies and jwt

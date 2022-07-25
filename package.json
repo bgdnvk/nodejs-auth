@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-auth",
+  "version": "0.0.1",
+  "description": "NodeJS auth example project for bognov.tech",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgdnvk/nodejs-auth.git"
+  },
+  "keywords": [
+    "nodejs",
+    "auth",
+    "cookies",
+    "jwt"
+  ],
+  "author": "bognov.tech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgdnvk/nodejs-auth/issues"
+  },
+  "homepage": "https://github.com/bgdnvk/nodejs-auth#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.6"
+  }
+}
